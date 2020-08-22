@@ -7,8 +7,6 @@ Emacs built-in packages to 3rt party packages.
 
 ### env
 
-#### Examples
-
 Set environment variables:
 
 ```el
@@ -19,8 +17,6 @@ Set environment variables:
 ```
 
 ### mule and mule-cmds
-
-#### Examples
 
 Set default input method and coding system:
 
@@ -41,8 +37,6 @@ Set default input method and coding system:
 
 ### ns-win
 
-#### Examples
-
 Set Mac modifiers:
 
 ```el
@@ -54,8 +48,6 @@ Set Mac modifiers:
 ```
 
 ### hippie-exp
-
-#### Examples
 
 Set keybinding to `M-/` and customize the list of expansion functions:
 
@@ -80,8 +72,6 @@ Set keybinding to `M-/` and customize the list of expansion functions:
 
 ### avoid
 
-#### Examples
-
 Move up mouse when cursor comes:
 
 ```el
@@ -92,8 +82,6 @@ Move up mouse when cursor comes:
 ```
 
 ### tool-bar, scroll-bar, menu-bar
-
-#### Examples
 
 Disable all of them:
 
@@ -117,8 +105,6 @@ Disable all of them:
 
 ### time
 
-#### Examples
-
 ```el
 (use-package time
   :ensure nil
@@ -132,8 +118,6 @@ Disable all of them:
 ```
 
 ### shell
-
-#### Examples
 
 Kill shell buffer when shell exits:
 
@@ -155,8 +139,6 @@ Kill shell buffer when shell exits:
 
 ### paren
 
-#### Examples
-
 ```el
 (use-package paren
   :ensure nil
@@ -168,11 +150,7 @@ Kill shell buffer when shell exits:
 
 ## 3rd party packages
 
-### exec-path-from-shell
-
-[Package home](https://github.com/purcell/exec-path-from-shell).
-
-#### Examples
+### [exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)
 
 Copy specified environment variables:
 
@@ -186,11 +164,7 @@ Copy specified environment variables:
   (exec-path-from-shell-initialize))
 ```
 
-### doom-themes
-
-[Package home](https://github.com/hlissner/emacs-doom-themes).
-
-#### Examples
+### [doom-themes](https://github.com/hlissner/emacs-doom-themes)
 
 ```el
 (use-package doom-themes
@@ -214,11 +188,7 @@ Copy specified environment variables:
   (doom-themes-org-config))
 ```
 
-### doom-modeline
-
-[Package home](https://github.com/seagle0128/doom-modeline).
-
-#### Examples
+### [doom-modeline](https://github.com/seagle0128/doom-modeline)
 
 ```el
 (use-package doom-modeline
@@ -230,11 +200,7 @@ Copy specified environment variables:
   (doom-modeline-mode 1))
 ```
 
-### highlight-indent-guides
-
-[Package home](https://github.com/DarthFennec/highlight-indent-guides).
-
-#### Examples
+### [highlight-indent-guides](https://github.com/DarthFennec/highlight-indent-guides)
 
 ```el
 (use-package highlight-indent-guides
@@ -247,11 +213,7 @@ Copy specified environment variables:
         highlight-indent-guides-responsive 'top))
 ```
 
-### rainbow-delimiters
-
-[Package home](https://github.com/Fanael/rainbow-delimiters).
-
-#### Examples
+### [rainbow-delimiters](https://github.com/Fanael/rainbow-delimiters)
 
 Hook to `prog-mode`:
 
@@ -264,11 +226,7 @@ Hook to `prog-mode`:
   :hook ((prog-mode . rainbow-delimiters-mode)))
 ```
 
-### projectile
-
-[Package home](https://github.com/bbatsov/projectile).
-
-#### Examples
+### [projectile](https://github.com/bbatsov/projectile)
 
 ```el
 (use-package projectile
@@ -280,11 +238,7 @@ Hook to `prog-mode`:
   (projectile-mode +1))
 ```
 
-### company
-
-[Package home](https://github.com/company-mode/company-mode).
-
-#### Examples
+### [company](https://github.com/company-mode/company-mode)
 
 ```el
 (use-package company
