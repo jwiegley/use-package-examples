@@ -156,7 +156,7 @@ Copy specified environment variables:
 
 ```el
 (use-package exec-path-from-shell
-  :if (memq window-system '(mac ns x))
+  :if (memq window-system '(pgtk ns x))
   :ensure t
   :init
   (setq exec-path-from-shell-variables '("PATH" "MANPATH" "GOPATH", "PYTHONPATH"))
