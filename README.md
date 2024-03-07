@@ -159,7 +159,7 @@ Copy specified environment variables:
   :if (memq window-system '(pgtk ns x))
   :ensure t
   :init
-  (setq exec-path-from-shell-variables '("PATH" "MANPATH" "GOPATH", "PYTHONPATH"))
+  (setq exec-path-from-shell-variables '("PATH" "MANPATH" "GOPATH" "PYTHONPATH"))
   :config
   (exec-path-from-shell-initialize))
 ```
